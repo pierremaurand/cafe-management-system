@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.wrapper;
+package com.opm.cafe.wrapper;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

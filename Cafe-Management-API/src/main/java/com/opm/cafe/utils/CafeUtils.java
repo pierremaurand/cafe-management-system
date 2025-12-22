@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.utils;
+package com.opm.cafe.utils;
 
 import com.google.common.base.Strings;
 import com.google.gson.Gson;

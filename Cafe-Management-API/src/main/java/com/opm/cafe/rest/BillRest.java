@@ -1,6 +1,6 @@
-package com.opm.cafe.Cafe.Management.API.rest;
+package com.opm.cafe.rest;
 
-import com.opm.cafe.Cafe.Management.API.POJO.Bill;
+import com.opm.cafe.POJO.Bill;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

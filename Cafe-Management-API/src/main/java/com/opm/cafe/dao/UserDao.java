@@ -1,7 +1,7 @@
-package com.opm.cafe.Cafe.Management.API.dao;
+package com.opm.cafe.dao;
 
-import com.opm.cafe.Cafe.Management.API.POJO.User;
-import com.opm.cafe.Cafe.Management.API.wrapper.UserWrapper;
+import com.opm.cafe.POJO.User;
+import com.opm.cafe.wrapper.UserWrapper;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.repository.query.Param;

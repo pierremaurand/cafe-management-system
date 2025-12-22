@@ -1,10 +1,9 @@
-package com.opm.cafe.Cafe.Management.API.POJO;
+package com.opm.cafe.POJO;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
-import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 

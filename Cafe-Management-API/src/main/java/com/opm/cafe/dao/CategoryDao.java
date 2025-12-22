@@ -1,6 +1,6 @@
-package com.opm.cafe.Cafe.Management.API.dao;
+package com.opm.cafe.dao;
 
-import com.opm.cafe.Cafe.Management.API.POJO.Category;
+import com.opm.cafe.POJO.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

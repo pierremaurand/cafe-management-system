@@ -1,6 +1,6 @@
-package com.opm.cafe.Cafe.Management.API.rest;
+package com.opm.cafe.rest;
 
-import com.opm.cafe.Cafe.Management.API.wrapper.ProductWrapper;
+import com.opm.cafe.wrapper.ProductWrapper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

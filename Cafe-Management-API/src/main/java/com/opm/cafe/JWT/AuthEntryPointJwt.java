@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.JWT;
+package com.opm.cafe.JWT;
 
 import jakarta.annotation.Nonnull;
 import jakarta.servlet.ServletException;

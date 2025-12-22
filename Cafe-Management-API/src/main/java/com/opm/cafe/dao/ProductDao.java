@@ -1,7 +1,7 @@
-package com.opm.cafe.Cafe.Management.API.dao;
+package com.opm.cafe.dao;
 
-import com.opm.cafe.Cafe.Management.API.POJO.Product;
-import com.opm.cafe.Cafe.Management.API.wrapper.ProductWrapper;
+import com.opm.cafe.POJO.Product;
+import com.opm.cafe.wrapper.ProductWrapper;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

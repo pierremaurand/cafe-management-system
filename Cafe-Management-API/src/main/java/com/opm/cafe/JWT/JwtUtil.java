@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.JWT;
+package com.opm.cafe.JWT;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

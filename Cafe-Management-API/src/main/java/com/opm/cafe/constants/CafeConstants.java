@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.constants;
+package com.opm.cafe.constants;
 
 public class CafeConstants {
 

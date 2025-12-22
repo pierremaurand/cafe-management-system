@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.utils;
+package com.opm.cafe.utils;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

@@ -1,6 +1,6 @@
-package com.opm.cafe.Cafe.Management.API.JWT;
+package com.opm.cafe.JWT;
 
-import com.opm.cafe.Cafe.Management.API.dao.UserDao;
+import com.opm.cafe.dao.UserDao;
 import jakarta.annotation.Nonnull;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +22,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     UserDao userDao;
 
     @Getter
-    private com.opm.cafe.Cafe.Management.API.POJO.User userDetails;
+    private com.opm.cafe.POJO.User userDetails;
 
     @Override
     @Nonnull

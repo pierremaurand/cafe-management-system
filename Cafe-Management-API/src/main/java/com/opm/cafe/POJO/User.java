@@ -1,4 +1,4 @@
-package com.opm.cafe.Cafe.Management.API.POJO;
+package com.opm.cafe.POJO;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 @NamedQuery(name="User.getAllUser", query = "select new com.opm.cafe.wrapper.UserWrapper(u.id, u.name, u.email, u.contactNumber, u.status) from User u where u.role='user' ")
 
-@NamedQuery(name = "User.getAllAdmin", query = "select u.email from User u where u.role='admin")
+@NamedQuery(name = "User.getAllAdmin", query = "select u.email from User u where u.role='admin'")
 
 @NamedQuery(name = "User.updateStatus", query = "update User u set u.status=:status where u.id=:id")
 
@@ -38,7 +38,7 @@ public class User implements Serializable{
     @Column(name = "email")
     private String email;
 
-    @Column(name = "passwords")
+    @Column(name = "password")
     private String password;
 
     @Column(name = "status")

@@ -1,6 +1,6 @@
-package com.opm.cafe.Cafe.Management.API.dao;
+package com.opm.cafe.dao;
 
-import com.opm.cafe.Cafe.Management.API.POJO.Bill;
+import com.opm.cafe.POJO.Bill;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
