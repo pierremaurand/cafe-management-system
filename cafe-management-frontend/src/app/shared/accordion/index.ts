@@ -1,3 +1,3 @@
 export * from './accordion';
-export * from './accordionanchior';
+export * from './accordionanchor';
 export * from './accordionlink';
